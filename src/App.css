@@ -1,0 +1,24 @@
+.App {
+  padding-top: 32px ;
+  text-align: center;
+  flex-grow: 1;
+  min-height: calc(100vh - 32px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Adjustments for Tablets */
+@media screen and (max-width: 768px) {
+  .App {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+/* Adjustments for Mobile Devices */
+@media screen and (max-width: 480px) {
+  .App {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

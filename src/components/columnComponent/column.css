@@ -1,0 +1,13 @@
+/* column.css */
+
+.columns-parent {
+    padding: 0 12px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .columns-parent {
+      padding: 0 8px; /* Adjust padding for smaller screens */
+    }
+  }
+  

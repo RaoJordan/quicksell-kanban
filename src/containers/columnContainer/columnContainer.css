@@ -1,0 +1,21 @@
+/* columnContainer.css */
+
+.column-container {
+  padding: 24px 12px;
+  background-color: #F4F5F8;
+  flex-grow: 1;
+}
+
+.column-inner-container {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .column-inner-container {
+    grid-template-columns: 1fr; /* On smaller screens, switch to a single column */
+    overflow: scroll;
+  }
+}

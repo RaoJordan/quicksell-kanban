@@ -1,0 +1,30 @@
+/* columnHeader.css */
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.column-header > div {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .column-header {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center; /* Center text content on smaller screens */
+    padding-bottom: 12px;
+  }
+
+  .column-header > div {
+    margin-bottom: 8px; /* Add space between stacked items */
+  }
+
+  .column-header > div:last-child {
+    margin-top: 8px; /* Add space above the last item */
+  }
+}

@@ -1,0 +1,86 @@
+/* headerContainer.css */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  position: relative;
+}
+
+.select-container {
+  width: 280px;
+  font-size: 18;
+}
+
+.heading-container {
+  margin-top: 0px;
+}
+
+/* .select {
+  font-size: 16px;
+  padding: 2px;
+  margin-left: 8px;
+  width: 120px;
+} */
+
+/* .select > option {
+  padding: 4px;
+} */
+
+.selectGroup {
+  padding: 3px;
+}
+
+.displayButton {
+  position: relative;
+}
+
+.dropOnClick {
+  position: absolute;
+  width: 250px;
+  background-color: #f8f8fa;
+  border: 1px solid silver;
+  border-radius: 10px;
+  top: 100%; /* Adjust this value to create space */
+  z-index: 10;
+}
+
+.disButton{
+  padding: 10px;
+  width: 100px;
+  background-color: #F4F5F8;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+
+.dropOnClick > * {
+  width: 100%;
+}
+
+.selectStyle {
+  width: 100px;
+  border-radius: 5px;
+  background: white;
+  padding: 2px 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .disButton {
+    font-size: 14px;
+  }
+
+  .selectGroup {
+    width: 100%; /* Adjust as needed */
+  }
+  
+  .dropOnClick {
+    width: 80%; /* Adjust the width for smaller screens */
+  }
+
+  .heading-container {
+    text-align: center;
+    margin-top: 20px; /* Add spacing from the top */
+  }
+}
